@@ -1,0 +1,14 @@
+.firstbox {
+    display: flex;
+    display: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.right {
+    width: 300px;
+    display: flex;
+    displaY: center;
+    justify-content: space-between;
+}
