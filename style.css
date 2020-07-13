@@ -18,7 +18,34 @@
 }
 
 main {
-    display: block;
+    display: grid;
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    margin: 40px auto;
+    grid-template-columns: [left] 1fr [right];
+    grid-template-rows: [top] 1fr [middle] 1fr [center] 1fr [bottom];
+}
+
+.about {
+    background-color: black;
+    grid-column: left/right;
+    grid-row: top/middle;
+
+}
+
+.projects {
+    background-color: orange;
+    grid-column: left/right;
+    grid-row: middle/center;
+
+}
+
+.contact {
+    background-color: black;
+    grid-column: left/right;
+    grid-row: center/bottom;
+
 }
 
 //`https://www.tvinsider.com/wp-content/uploads/2019/12/the-mandalorian-baby-yoda-1014x570.jpeg
