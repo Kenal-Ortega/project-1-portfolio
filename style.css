@@ -1,4 +1,7 @@
-
+p {
+    text-align: center;
+    font-size: 20px;
+}
 .firstbox {
     background-color: black;
     color: white;
@@ -7,7 +10,6 @@
     display: center;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .right {
@@ -20,32 +22,39 @@
 main {
     display: grid;
     background-color: gray;
-    height: 400px;
-    width: 400px;
+    height: 2000px;
     margin: 40px auto;
     grid-template-columns: [left] 1fr [right];
     grid-template-rows: [top] 1fr [middle] 1fr [center] 1fr [bottom];
 }
 
 .about {
-    background-color: black;
+    background-color: grey;
     grid-column: left/right;
     grid-row: top/middle;
-
+    width: 100%;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.3%;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+
 .projects {
-    background-color: orange;
+    background-color: grey;
     grid-column: left/right;
     grid-row: middle/center;
-
+    width: 100%;
 }
 
 .contact {
-    background-color: black;
+    background-color: grey;
     grid-column: left/right;
     grid-row: center/bottom;
-
+    width: 100%;
 }
-
-//`https://www.tvinsider.com/wp-content/uploads/2019/12/the-mandalorian-baby-yoda-1014x570.jpeg
