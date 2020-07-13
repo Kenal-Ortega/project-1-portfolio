@@ -3,7 +3,7 @@ p {
     font-size: 20px;
 }
 .firstbox {
-    background-color: black;
+    background-color: #5D6C89;
     color: white;
     border-bottom: 3px solid black;
     display: flex;
@@ -21,7 +21,7 @@ p {
 
 main {
     display: grid;
-    background-color: gray;
+    background-color: #FBF6F3;
     height: 2000px;
     margin: 40px auto;
     grid-template-columns: [left] 1fr [right];
@@ -29,7 +29,7 @@ main {
 }
 
 .about {
-    background-color: grey;
+    
     grid-column: left/right;
     grid-row: top/middle;
     width: 100%;
@@ -46,14 +46,14 @@ img {
 
 
 .projects {
-    background-color: grey;
+    
     grid-column: left/right;
     grid-row: middle/center;
     width: 100%;
 }
 
 .contact {
-    background-color: grey;
+    
     grid-column: left/right;
     grid-row: center/bottom;
     width: 100%;
