@@ -24,6 +24,8 @@ My project will be a landing page about me for potential employers. It will incl
 
 ## Time/Priority Matrix 
 - [Graphic](https://res.cloudinary.com/dlcjnygpy/image/upload/v1594664308/20200710_204051_g3cwsa.jpg)
+
+
 |Deliverable	| Status	| Time Spent |
 | --- | :---: |  :---: | 
 | Fri, July 10 | Project Proposal	| Complete | 8 hrs |
