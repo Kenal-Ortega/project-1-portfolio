@@ -91,6 +91,7 @@ img {
     grid-column: left/right;
     grid-row: center/bottom;
     width: 100%;
+    margin: 30px;
    
 }
 
