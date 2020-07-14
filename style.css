@@ -12,7 +12,6 @@ p {
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
-    
 }
 
 .right {
@@ -52,6 +51,10 @@ img {
     border-radius: 50%;
 }
 
+.target1 {
+    display: block;
+    text-align: center;
+}
 
 .projects {
     
@@ -60,12 +63,21 @@ img {
     width: 100%;
 }
 
+.target2 {
+    display: block;
+    text-align: center;
+}
+
 .contact {
     
     grid-column: left/right;
     grid-row: center/bottom;
     width: 100%;
-    
+}
+
+.target3 {
+    display: block;
+    text-align: center;
 }
 
 @media (max-width: 1024) {
@@ -85,8 +97,6 @@ img {
         text-align: center;
         font-size: 20px;
     }
-  
-   
 }
 @media (max-width: 375) {
     p {
