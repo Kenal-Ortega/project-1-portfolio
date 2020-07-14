@@ -24,15 +24,21 @@ p {
 body {
     padding-left: 50px;
     padding-right: 50px;
+    /*height: 1000px;*/
 }
 
 main {
     display: grid;
     background-color: #FBF6F3;
-    height: 50%;
+    /*height: 50%;*/
     margin: 40px auto;
     grid-template-columns: [left] 1fr [right];
     grid-template-rows: [top] 1fr [middle] 1fr [center] 1fr [bottom];
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .about {
@@ -40,6 +46,7 @@ main {
     grid-column: left/right;
     grid-row: top/middle;
     width: 100%;
+   
 }
 
 img {
@@ -56,11 +63,13 @@ img {
     text-align: center;
 }
 
+
 .projects {
     
     grid-column: left/right;
     grid-row: middle/center;
     width: 100%;
+   
 }
 
 .target2 {
@@ -68,11 +77,13 @@ img {
     text-align: center;
 }
 
+
 .contact {
     
     grid-column: left/right;
     grid-row: center/bottom;
     width: 100%;
+   
 }
 
 .target3 {
@@ -80,31 +91,16 @@ img {
     text-align: center;
 }
 
-@media (max-width: 1024) {
-    p {
-        text-align: center;
-        font-size: 20px;
-    }
-}
+
+
 @media (max-width: 768) {
     p {
         text-align: center;
         font-size: 20px;
     }
 }
+
 @media (max-width: 320) {
-    p {
-        text-align: center;
-        font-size: 20px;
-    }
-}
-@media (max-width: 375) {
-    p {
-        text-align: center;
-        font-size: 20px;
-    }
-}
-@media (max-width: 414) {
     p {
         text-align: center;
         font-size: 20px;
