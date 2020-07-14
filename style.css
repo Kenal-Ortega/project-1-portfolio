@@ -1,6 +1,7 @@
 p {
     text-align: center;
     font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .firstbox {
@@ -10,6 +11,7 @@ p {
     display: center;
     flex-direction: row;
     justify-content: space-between;
+    align-content: center;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -17,23 +19,29 @@ p {
 .right {
     width: 300px;
     display: flex;
-    displaY: center;
     justify-content: space-between;
+    margin: 30px;
+}
+
+
+.burger {
+    color: white;
+    font-size: x-large;
+    display: none;
 }
 
 body {
     padding-left: 50px;
     padding-right: 50px;
-    /*height: 1000px;*/
+    
 }
 
 main {
     display: grid;
     background-color: #FBF6F3;
-    /*height: 50%;*/
     margin: 40px auto;
     grid-template-columns: [left] 1fr [right];
-    grid-template-rows: [top] 1fr [middle] 1fr [center] 1fr [bottom];
+    grid-template-rows: [top] 2fr [middle] 2fr [center] 1fr [bottom];
 }
 
 a {
@@ -93,16 +101,35 @@ img {
 
 
 
-@media (max-width: 768) {
+@media (max-width: 320px) {
     p {
         text-align: center;
         font-size: 20px;
     }
 }
 
-@media (max-width: 320) {
-    p {
-        text-align: center;
-        font-size: 20px;
+@media (max-width: 768px) {
+   
+
+    .firstbox {
+        padding-left: 30px;
+        padding-right: 30px;
     }
+
+   
+
+    .burger {
+        display: block;   
+    }
+
+     .right1 {
+
+        display: none;
+    }
+
+    
+
+
+
+
 }
