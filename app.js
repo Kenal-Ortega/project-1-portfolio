@@ -48,7 +48,7 @@ const app = (data => {
 
     const createProjectElement = (project) => {
         const $div = $("<div>")
-        $div.append($("<h2>").text(project.title))
+        $div.append($("<h4 class='center1'>").text(project.title))
        // $div.append($("<p>").text(project.description))
         $div.append($("<img>").attr("src", project.image))
         $div.append($("<a>").attr("href", project.url))

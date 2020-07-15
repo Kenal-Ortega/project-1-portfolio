@@ -50,7 +50,7 @@ main {
     background-color: #FBF6F3;
     margin: 40px auto;
     grid-template-columns: [left] 1fr [right];
-    grid-template-rows: [top] 1fr [middle] 2fr [center] 1fr [bottom];
+    grid-template-rows: [top] .5fr [middle] 1fr [center] 1fr [bottom];
 }
 
 a {
@@ -66,13 +66,20 @@ a {
    
 }
 
-img {
+.img1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 33.3%;
     padding: 50px;
     border-radius: 50%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.3%
 }
 
 .target1 {
@@ -87,6 +94,10 @@ img {
     grid-row: middle/center;
     width: 100%;
    
+}
+
+.center1 {
+    text-align: center;
 }
 
 .target2 {
@@ -109,6 +120,10 @@ img {
     text-align: center;
 }
 
+.lastbox {
+    display: flex;
+    justify-content: center;
+}
 
 
 @media (max-width: 320px) {
