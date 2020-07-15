@@ -145,27 +145,20 @@ img {
 }
 
 @media (max-width: 768px) {
-   
-
-    .firstbox {
-        padding-left: 30px;
-        padding-right: 30px;
+    .right {
+        margin: 50px;
+    }
+    body {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .lastbox {
+        display: inline-block;
     }
 
-   
+    .target3 {
+        padding-right: 70px;
 
-    .burger {
-        display: block;   
     }
-
-     .right1 {
-
-        display: none;
-    }
-
     
-
-
-
-
 }
