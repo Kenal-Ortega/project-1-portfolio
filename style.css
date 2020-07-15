@@ -41,7 +41,7 @@ main {
     background-color: #FBF6F3;
     margin: 40px auto;
     grid-template-columns: [left] 1fr [right];
-    grid-template-rows: [top] 2fr [middle] 2fr [center] 1fr [bottom];
+    grid-template-rows: [top] 1fr [middle] 2fr [center] 1fr [bottom];
 }
 
 a {
