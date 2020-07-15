@@ -5,7 +5,7 @@ p {
 }
 
 .firstbox {
-    background-color: #5D6C89;
+    background-color: #000000;
     color: white;
     display: flex;
     display: center;
@@ -23,12 +23,21 @@ p {
     margin: 30px;
 }
 
+.right1:hover {
+    font-size: larger;
+}
+
 
 .burger {
     color: white;
     font-size: x-large;
     display: none;
 }
+.webdev {
+    text-align: center;
+    margin: bottom;
+}
+
 
 body {
     padding-left: 50px;
@@ -103,9 +112,20 @@ img {
 
 
 @media (max-width: 320px) {
-    p {
-        text-align: center;
-        font-size: 20px;
+    .firstbox {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+   
+
+    .burger {
+        display: block;   
+    }
+
+     .right1 {
+
+        display: none;
     }
 }
 
