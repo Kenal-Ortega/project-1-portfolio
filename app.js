@@ -51,7 +51,7 @@ const app = (data => {
         $div.append($("<h4 class='center1'>").text(project.title))
        // $div.append($("<p>").text(project.description))
         $div.append($("<img>").attr("src", project.image))
-        $div.append($("<a>").attr("href", project.url))
+        $div.append($("<a class='plink'>").attr("href", project.url).text("LINK >>"))
         return $div
     }
 

@@ -2,6 +2,8 @@ p {
     text-align: center;
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: 4px;
+    line-height: 1.6;
 }
 
 .firstbox {
@@ -50,7 +52,7 @@ main {
     background-color: #FBF6F3;
     margin: 40px auto;
     grid-template-columns: [left] 1fr [right];
-    grid-template-rows: [top] .5fr [middle] 1fr [center] 1fr [bottom];
+    grid-template-rows: [top] .5fr [middle] 1fr [center] .5fr [bottom];
 }
 
 a {
@@ -95,7 +97,10 @@ img {
     width: 100%;
    
 }
-
+.plink {
+    display: block;
+    text-align: center;
+}
 .center1 {
     text-align: center;
 }
@@ -115,6 +120,11 @@ img {
    
 }
 
+.contact1 {
+    width: 640px;
+    height: 812px;
+}
+
 .target3 {
     display: block;
     text-align: center;
@@ -125,22 +135,83 @@ img {
     justify-content: center;
 }
 
+footer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    display: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 50px;
+}
 
-@media (max-width: 320px) {
-    .firstbox {
-        padding-left: 30px;
-        padding-right: 30px;
+
+@media (max-width: 414px) {
+    p {
+        font-size: 25px;
+        word-spacing: 4px;
+        width: 350px;
     }
 
-   
+    .firstbox {
+        width: 348px;
+        height: 150px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .right {
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        position: absolute;
+        
+    
+    }
+
+    .right1 {
+        
+        display: none;
+        margin-right: 150px;
+    }
 
     .burger {
-        display: block;   
+        display: block; 
+        margin-right: 0px;
+    
+
+    }
+    .left {
+        font-size: 20px;
+        position: absolute;
+        margin-left: 50px;
+        top: 15px;
+    }
+   
+
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
-     .right1 {
-
-        display: none;
+    main {
+        display: grid;
+        background-color: #FBF6F3;
+        margin: 0px auto;
+        grid-template-columns: [left] 1fr [right];
+        grid-template-rows: [top] .2fr [middle] .3fr [center] .2fr [bottom];
+    }
+   
+    .contact1 {
+        width: 300px;
+        height: 812px;
+    }
+    footer {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -160,5 +231,6 @@ img {
         padding-right: 70px;
 
     }
+
     
 }
