@@ -29,11 +29,11 @@ My project will be a landing page about me for potential employers. It will incl
 |Deliverable	| Status	| Time Spent |
 | --- | :---: |  :---: | 
 | Fri, July 10 | Project Proposal	| Complete | 8 hrs |
-| Mon, July 13 | Compile List of Projects and connect using API | Incomplete | -hr |
-| Tues, July 14 | HTML & CSS built | Incomplete | -hr |
-| Wed, July 15 | Responsiveness & hamburger menu | Incomplete | -hr |
-| Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
-| Fri, July 17 | Depoly website | Incomplete | -hr |		
+| Mon, July 13 | Compile List of Projects and connect using API | Complete | -hr |
+| Tues, July 14 | HTML & CSS built | Complete | -hr |
+| Wed, July 15 | Responsiveness & hamburger menu | Complete | -hr |
+| Thurs, July 16 | Finishing touches and Post MVP | Complete | -hr |	
+| Fri, July 17 | Depoly website | Complete | -hr |		
  
 ## MVP/Post MVP
 
