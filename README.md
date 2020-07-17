@@ -56,19 +56,19 @@ My project will be a landing page about me for potential employers. It will incl
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| "About Me" section (including photo and bio)  | H | 2hrs | -hr | -hr|
-| Naviagation bar | M | 1.5hrs | -hr | -hr|
-| Styling navigation bar & "About Me" with grid and flexbox | H | 3hrs | -hr | -hr|
-| Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| -hr | -hr |
-| Styling "Project" section with grid and flexbox | M | 4hrs | -hr | -hr|
-| "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
-| Working with API | H | 6hrs | -hr | -hr |
-| Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
-| Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
-| Ensuring responsive for mobile | H | 2hrs | -hr | -hr|
-| Hamburger menu | H | 2hrs | -hr | -hr|
-| Deploying website | H | 2hr | -hr | -hr|
-| Total | - | 32.5hrs | -hr | -hr |
+| "About Me" section (including photo and bio)  | H | 2hrs | 4hr | 4hr|
+| Naviagation bar | M | 1.5hrs | 1hr | 1hr|
+| Styling navigation bar & "About Me" with grid and flexbox | H | 3hrs | 3hr | 3hr|
+| Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| 3hr | 3hr |
+| Styling "Project" section with grid and flexbox | M | 4hrs | 4hr | 4hr|
+| "Contact Me" section and input fields| H | 4hrs | 3hr | 3hr|
+| Working with API | H | 6hrs | 2hr | 2hr |
+| Ensuring responsive for desktop | H | 2hrs | 1hr | 1hr|
+| Ensuring responsive for iPad | H | 2hrs | 3hr | 3hr|
+| Ensuring responsive for mobile | H | 2hrs | 4hr | 4hr|
+| Hamburger menu | H | 2hrs | 3hr | 3hr|
+| Deploying website | H | 2hr | 2hr | 2hr|
+| Total | - | 32.5hrs | 33hr | 33hr |
 
 
 #### Post MVP
