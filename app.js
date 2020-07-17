@@ -1,4 +1,6 @@
 //HAMBURGER FUNCTION
+//RESOURCE https://www.youtube.com/watch?v=1GeSOP7kHuw&feature=youtu.be
+
 const $burger = $(".burger")
 const $right1 = $(".right1")
 let show = false;
@@ -20,7 +22,7 @@ const showMenu = (event) => {
 $burger.on("click", showMenu)
 
 
-
+//RESOURCE CLASS WORK
 //JSON
 const url = "https://spreadsheets.google.com/feeds/list/1hKH-79ODVGCyHQwK9eGJwTrgQe5k758CcZEnncL9MUI/od6/public/values?alt=json"
 

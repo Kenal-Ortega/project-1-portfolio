@@ -77,4 +77,8 @@ My project will be a landing page about me for potential employers. It will incl
 |Look into bootstrap | L | 5hrs | -hr | -hr|
 |Gifs| L | 3hrs | -hr | -hr|
 | Total | - | 8hrs | -hrs | -hrs | 
+
+
+
+
  
