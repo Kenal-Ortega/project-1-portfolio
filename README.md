@@ -82,11 +82,7 @@ My project will be a landing page about me for potential employers. It will incl
 
 
 
-=======
-|Convert into bootstrap | L | 5hrs | N/A | N/A|
-|Gifs| L | 3hrs | N/A | N/A|
-| Total | - | 8hrs | N/A | N/A | 
->>>>>>> a62bdd325d9331a0108ce639dccf946e45623a45
+
 
 
 
