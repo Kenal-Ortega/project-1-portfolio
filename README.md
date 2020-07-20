@@ -81,10 +81,14 @@ My project will be a landing page about me for potential employers. It will incl
 |Gifs| L | 3hrs | N/A | N/A|
 | Total | - | 8hrs | N/A | N/A | 
 
-
-
-
-
+## Additional Libraries
+ - jQuery
+ 
+ - JSON
+ 
+ - Google Fonts
+ 
+ - Font Awesome
 
 
 
