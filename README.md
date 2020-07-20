@@ -1,5 +1,8 @@
 # Project Proposal
 
+## Live Website
+https://dreamy-kilby-bc65ba.netlify.app/
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
