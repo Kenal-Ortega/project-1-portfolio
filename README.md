@@ -142,6 +142,35 @@ const app = (data => {
 })
 ```
 
+## Issues and Resolutions
+ 
+#### Getting the Hamburger menu to work. Everything was written out fine but, I had 2 fatal flaws. 1) I invoked the function showMenu with parameters. 2) I had a word misspelled. After hours searching I finally saw my flaw.
+
+```
+//HAMBURGER FUNCTION
+//RESOURCE https://www.youtube.com/watch?v=1GeSOP7kHuw&feature=youtu.be
+
+const $burger = $(".burger")
+const $right1 = $(".right1")
+let show = false;
+
+const showMenu = (event) => {
+    if (show) {
+        $right1.each(function(index){
+            $(this).css("display","none")
+        })
+        show = false
+    } else {
+        $right1.each(function(index){
+            $(this).css("display","block")
+        })
+        show = true
+    }
+}
+
+$burger.on("click", showMenu)
+```
+
 
 
  
