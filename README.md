@@ -74,7 +74,6 @@ My project will be a landing page about me for potential employers. It will incl
 #### Post MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-<<<<<<< HEAD
 |Look into bootstrap | L | 5hrs | -hr | -hr|
 |Gifs| L | 3hrs | -hr | -hr|
 | Total | - | 8hrs | -hrs | -hrs | 
