@@ -12,7 +12,7 @@ https://dreamy-kilby-bc65ba.netlify.app/
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Complete
-|Day 6| Present | Incomplete
+|Day 6| Present | Complete
 
 ## Project Description
 My project will be a landing page about me for potential employers. It will include an about me, contact information and, previous work experience. I’ve looked over some sites to use as reference and I really liked this one https://dietoself86.github.io/project-1-portfolio/. I’m not sure if my project will resemble this, but I will be going for that clean-cut look, especially since I don’t think I have much to put on the page.
